@@ -4,14 +4,16 @@ var tagName = prompt("Please enter an HTML Tag (ex. h1, h2, p, div):", "enter ta
 if (tagName !== "h1" && tagName !== "h2" && tagName !== "p" && tagName !== "div") {
   alert("please enter a valid tag");
 } else {
+
+  console.log(tagName);
   // Creates element based on tag entered by user
-  var tag = document.createElement(tagName);
+  tagName = document.createElement(tagName);
 
   // Adds text content to created tag
-  tag.textContent = "This was made via prompts. It's a " + tagName + ".";
+  tagName.textContent = "This was made via prompts. It's a " + tagName + ".";
   
   // Appends tag as child of document body
-  document.body.appendChild(tag);
+  document.body.appendChild(tagName);
 }
 
 var nextTag = confirm("Would you like to add another tag?");
