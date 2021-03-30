@@ -1,0 +1,110 @@
+header {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  body {
+    background: url(../Images/cement_plaster_white.jpg) no-repeat center center
+      fixed;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  input,
+  textarea {
+    justify-self: stretch;
+  }
+  
+  footer {
+    margin-top: 20px;
+    border-top: 5px;
+    border-color: rgb(231, 236, 231);
+    border-style: solid;
+    background-color: rgb(102, 102, 102);
+    color: #ffffff;
+  }
+  
+  .navbar {
+    padding: 0 1rem;
+  }
+  
+  .navbar-brand {
+    padding: 2rem;
+    background-color: #61b8b2;
+    color: #ffffff;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #ffff;
+  }
+  
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+  }
+  
+  .navbar-nav {
+    padding-right: 2rem;
+  }
+  
+  .card {
+    align-content: center;
+    margin: 15px;
+    max-width: 500px;
+  }
+  
+  .btn-primary {
+    background-color: #61b8b2;
+    border-color: #61b8b2;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #61b8b2;
+    border-color: #61b8b2;
+  }
+  
+  .btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .btn-primary.focus,
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #4e8d89;
+    border-color: #4e8d89;
+    box-shadow: 0 0 0 0.2rem #4e8d89;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #4e8d89;
+    border-color: #4e8d89;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(87, 85, 85);
+  }
+  
+  .float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  .my-portfolio {
+    margin: 1rem 1rem;
+  }
+  
+  .my-col {
+    margin: 10px;
+  }
+  
+  #contact-form {
+    width: 100%;
+  }
